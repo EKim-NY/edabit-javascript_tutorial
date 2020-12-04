@@ -1,27 +1,34 @@
+
+// Concatenate strings. 
 const firstName = "Luke "
 const lastName = "Skywalker"
 
-// enter code below this line
 const name = firstName + lastName
 
 function multiplyTwoNumbers(num1, num2) {
   return num1 * num2 
 }
 
+// Return the element "Donatello".
 const turtles = ["Raphael", "Michelangelo", "Leonardo", "Donatello"]
 
 function turtlePower(turtles) {
   return turtles[3]
 }
 
-# Given an array of numbers, set the value of the data stored at index 1 to 88. 
+// Given an array of numbers, set the value of the data stored at index 1 to 88. 
 
 const numbers = [1, 4, 6, 8, 0]
-
-// enter code below this line
 numbers[1] = 88 
 
-# Given an array arr of unknown length, return its length.
+// Given an array arr of unknown length, return its length.
 function getLength(arr) {
   return arr.length
+}
+
+// Create an object. 
+const person4 = {
+  firstName: "Daenerys", 
+    lastName: "Targaryen", 
+    email: "dragonlady@gmail.com"
 }
