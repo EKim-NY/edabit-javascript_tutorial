@@ -7,3 +7,9 @@ const name = firstName + lastName
 function multiplyTwoNumbers(num1, num2) {
   return num1 * num2 
 }
+
+const turtles = ["Raphael", "Michelangelo", "Leonardo", "Donatello"]
+
+function turtlePower(turtles) {
+  return turtles[3]
+}
