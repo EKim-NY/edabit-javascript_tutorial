@@ -32,3 +32,8 @@ const person4 = {
     lastName: "Targaryen", 
     email: "dragonlady@gmail.com"
 }
+
+# Use dot notation to access the key ("email") of the object ("person"). 
+function getEmail(person) {
+  return person.email
+}
