@@ -33,14 +33,21 @@ const person4 = {
     email: "dragonlady@gmail.com"
 }
 
-# Use dot notation to access the key ("email") of the object ("person"). 
+// Use dot notation to access the key ("email") of the object ("person"). 
 function getEmail(person) {
   return person.email
 }
 
-# Subtract 2 from every element in the numbers array using .map(). 
+// Subtract 2 from every element in the numbers array using .map(). 
 const numbers = [1, 4, 9, 16]
 
 function subtractTwo(numbers) {
   return numbers.map(x => x - 2)
+}
+
+// Return only numbers in the years array greater than 1950. 
+const years = [1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020]
+
+function getYears(years) {
+  return years.filter(year => year > 1950)
 }
