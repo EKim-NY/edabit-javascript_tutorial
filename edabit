@@ -4,3 +4,6 @@ const lastName = "Skywalker"
 // enter code below this line
 const name = firstName + lastName
 
+function multiplyTwoNumbers(num1, num2) {
+  return num1 * num2 
+}
