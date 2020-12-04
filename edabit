@@ -1,0 +1,6 @@
+const firstName = "Luke "
+const lastName = "Skywalker"
+
+// enter code below this line
+const name = firstName + lastName
+
