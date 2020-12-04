@@ -37,3 +37,10 @@ const person4 = {
 function getEmail(person) {
   return person.email
 }
+
+# Subtract 2 from every element in the numbers array using .map(). 
+const numbers = [1, 4, 9, 16]
+
+function subtractTwo(numbers) {
+  return numbers.map(x => x - 2)
+}
