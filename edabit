@@ -13,3 +13,10 @@ const turtles = ["Raphael", "Michelangelo", "Leonardo", "Donatello"]
 function turtlePower(turtles) {
   return turtles[3]
 }
+
+# Given an array of numbers, set the value of the data stored at index 1 to 88. 
+
+const numbers = [1, 4, 6, 8, 0]
+
+// enter code below this line
+numbers[1] = 88 
