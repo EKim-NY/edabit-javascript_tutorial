@@ -20,3 +20,8 @@ const numbers = [1, 4, 6, 8, 0]
 
 // enter code below this line
 numbers[1] = 88 
+
+# Given an array arr of unknown length, return its length.
+function getLength(arr) {
+  return arr.length
+}
